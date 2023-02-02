@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+/* CSS Varibles */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Nav bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+
+
+}
+
+
+/* Navbar Logo and img */
+#logo{
+    margin: -4px 23px;
+}
+
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+
+
+
+
+/* Navbar list styling */
+#navbar ul{
+    display: flex;
+    font-family: 'Righteous', cursive;
+
+
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(42, 42, 42);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.4 ;
+
+
+}
+
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+/* Home section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 406px;
+}
+#home::before{
+    content: "";
+    background:url('../bg11.jpg') no-repeat bottom center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 485px;
+    width: 100%;
+   z-index: -1;
+    opacity: 0.9;
+
+}
+
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+
+}
+#home p{
+    color: rgb(233, 8, 113);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Sarabun', sans-serif;
+
+
+}
+
+/* SERVICES */
+
+
+ #services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: #f2f2f2;
+
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+  
+    
+} 
+
+#services .box p{
+    font-family: 'Sarabun', sans-serif;
+}
+
+
+
+/* CLIENT SECTION */
+
+
+
+
+#client-section{
+  height: 344px;
+  position: relative;
+
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../bg2.jpg')  no-repeat  ;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+  
+
+
+#clients{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#clients img{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    
+    margin:  40px;
+    padding: 34px;
+
+}
+/* 
+CONTACT SECTION */
+
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    background: url('/mathyas-kurmann-fb7yNPbT0l8-unsplash.jpg') no-repeat center center/cover;
+
+
+}
+
+
+#contact-box form{
+    font-size: 1.3rem;
+    font-family: 'Sarabun', sans-serif;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, #contact-box textarea{
+   width: 100%;
+   padding: 0.5rem;
+   background-color: rgb(241, 240, 235);
+   border: 2px solid rgb(220, 160, 160);
+   border-radius: 8px;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px
+    ;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*utility classes*/
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px ;
+    font-family: 'Sarabun', sans-serif;
+}
+  
+.h-secondary{
+    font-size: 1.7rem;
+    padding: 12px ;
+    font-family: 'Sarabun', sans-serif;
+}
+  
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(151, 150, 147);
+    color: white;
+    margin: 17px ;
+    font-size: 1.4rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.center{
+    text-align: center;
+} 
+
+
+
+

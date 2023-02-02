@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/venti-views-j-Ou5YvdXFQ-unsplash.jpg');
+            background-size: 100%;
+            
+            background-repeat: no-repeat;
+            font-family: 'Maven Pro', sans-serif;
+        }
+        .left{
+            /* border:2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: -12px;
+        }
+        .right{
+            /* border:2px solid blue; */
+            display: block;
+            position: absolute;
+            right:34px;
+            top: 18px;
+            
+        }
+        .mid{
+             /* border: 2px solid greenyellow; */
+             display: block;
+             width: 50%;
+             margin: 18px auto;
+             
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+            
+        }
+        .navbar li a:hover,.navbar li a.active{
+          text-decoration: underline;
+          color: grey;
+            
+        }
+        .left img{
+            width:103px;
+            filter: invert(100%);
+
+        }
+        .left div{
+            text-align: center;
+            line-height: 7px;
+    font-size: 15px;
+    margin: -22px;
+        }
+        .btn{
+            font-family: 'Maven Pro', sans-serif;
+           margin:0px 9px; 
+           padding: 4px 14px;
+           background-color: rgb(146, 79, 79);
+           color: white;
+           border-radius: 10px;
+           font-size: 20px;
+           cursor: pointer;
+           display: block;
+           
+
+        }
+        .btn1{
+            font-family: 'Maven Pro', sans-serif;
+            margin:0px 36px; 
+       
+       
+           padding: 4px 14px;
+           background-color: rgb(146, 79, 79);
+           color: white;
+           border-radius: 10px;
+           font-size: 20px;
+           cursor: pointer;
+           display: block;
+           
+        }
+        .btn:hover{
+            background-color: grey;
+
+        }
+        .container{
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+        .form-group input{
+            font-family: 'Maven Pro', sans-serif;
+            text-align: center;
+            display: block;
+            width: 70%;
+            margin: 5px auto;
+            padding: 3px;
+            border: 2px solid black;
+            font-size: 20px;
+            border-radius: 7px;
+        
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 120%px;
+            margin:  30px auto;
+        }
+        .about li{
+            font-size: large;
+        }
+        
+        
+    </style>
+</head>
+<body>
+     <header class="header">
+        <div class="left">
+         <img src="img/download.png" alt="" >
+         <div>Samarth GYM</div>
+        </div>
+        <div class="mid">
+              <ul class="navbar">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="#" class="active">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+        </div>
+        <div class="right">
+<button class="btn">Call Us Now</button>
+<button class="btn1">Email Us</button>
+        </div>
+     </header>  
+     <div class="container">
+        <div class="about">
+            <ol type="1">
+                <li>Best in area</li>
+                <li>afforadable</li>
+            </ol>
+        </div>
+     </div>
+</body>
+</html>

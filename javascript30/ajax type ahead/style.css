@@ -1,0 +1,67 @@
+html {
+ 
+    background: #ffc600;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  
+  
+  input {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .search-form {
+    max-width: 400px;
+    margin: 200px auto;
+  }
+  
+  .search {
+    
+    text-align: center;
+    
+    border: 2px solid #8bc681;
+    width: 120%;
+    right: 50px;
+    position: relative;
+    top: 10px;
+   z-index: 1;
+    border-radius: 5px;
+    font-size: 40px;
+    
+  }
+  
+  .suggestions {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+  }
+  
+  .suggestions li {
+    background: white;
+    list-style: none;
+    align-items: center;
+    
+    margin: 0;
+    padding: 20px;
+    border: 2px solid rgb(168, 118, 118);
+    display: flex;
+    justify-content: space-between ;
+    text-transform: capitalize;
+    
+  }
+  
+  
+  
+  span.population {
+    font-size: 20px;
+  
+    
+  }
+  
+  .hl {
+    background: #ffc600;
+  }

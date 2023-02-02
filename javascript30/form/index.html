@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(109, 181, 181);
+    }
+    .container{
+        width: 300px;
+        height: 300px;
+        margin:  50px 50px;
+        padding: 20px;
+      
+        color: rgb(219, 219, 17);
+       
+    }
+    .inp{
+       
+        
+        color: rgb(232, 27, 27);
+    }
+    
+</style>
+<body>
+    <form class="container" action="">
+        <label for="name" >Name:</label>
+        <input  class="inp" id="name"  type="text" required >
+        <br><br>
+        <label for="rn">Registration No:</label>
+        <input class="inp" id="rn" type="text"required>
+        <br><br>
+        <label for="course">Course:</label>
+        <select class="inp" name="course" id="course" required>
+            <option value="Btech">Btech</option>
+            <option value="Mtech">Mtech</option>
+        </select>
+        <br><br>
+        <label for="branch">Branch:</label>
+        <select class="inp" name="branch" id="branch" required>
+            <option value="cs">Computer science</option>
+            <option value="civil">Civil</option>
+            <option value="mechanical">Mechanical</option>
+            <option value="automobile">Automobile</option>
+            <option value="electrical">Electrical</option>
+        </select>
+
+        
+        <br><br>
+        Gender:
+        <input class="inp" id="male" name="gender" type="radio" required>
+        <label  for="male">Male</label>
+        <input class="inp" type="radio" name="gender" id="female" required>
+        <label for="female">Female</label>
+        <br><br>
+        <label for="date">D.O.B</label>
+        <input class="inp" id="date" type="date" required>
+        <br><br>
+
+
+         
+        <input class="inp" type="submit">
+        <input class="inp" type="reset">
+    </form>
+</body>
+</html>
